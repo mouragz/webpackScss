@@ -1,0 +1,22 @@
+.chart {
+    position: relative;
+    width: 70px; 
+    height: 70px;
+    float: #{$default-float};
+    canvas {
+        display:  block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    span {
+        color: $blue;
+        display: block;
+        line-height: 70px;
+        text-align: center;
+        width: 70px;
+        font-size: 20px;
+        font-weight: 100;
+        margin-left: 5px;
+    }
+}

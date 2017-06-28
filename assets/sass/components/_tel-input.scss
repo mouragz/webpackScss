@@ -1,0 +1,40 @@
+.intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel] {
+    padding-#{$default-float}: 52px;
+    padding-#{$opposite-direction}: 6px;
+    margin-#{$opposite-direction}: 0;
+}
+.intl-tel-input.allow-dropdown .flag-container {
+    #{$default-float}: 0 !important;
+    #{$opposite-direction}: auto !important;
+}
+.intl-tel-input .selected-flag {
+    padding: 0;
+    padding-#{$opposite-direction}: 8px;
+}
+.selected-flag .iti-arrow {
+    position: absolute !important;
+    top: 50% !important;
+    margin-top: -2px !important;
+    #{$default-float}: auto !important;
+    #{$opposite-direction}: 6px !important;
+    width: 0 !important;
+    height: 0 !important;
+    border-#{$default-float}: 3px solid transparent !important;
+    border-#{$opposite-direction}: 3px solid transparent !important;
+    border-top: 4px solid #555 !important;
+}
+.intl-tel-input .country-list {
+    position: absolute;
+    z-index: 2;
+    list-style: none;
+    text-align: #{$opposite-direction};
+    padding: 0;
+    margin: 0 0 0 -1px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+    background-color: white;
+    border: 1px solid #CCC;
+    white-space: nowrap;
+    max-height: 200px;
+    overflow-y: scroll;
+    text-align:$default-float;
+}

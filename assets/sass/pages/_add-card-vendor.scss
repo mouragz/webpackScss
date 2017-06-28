@@ -1,0 +1,17 @@
+.fa{
+	&.fa-cc-visa,&.fa-cc-mastercard{
+		color:$gray;
+		&.active{
+			color:$brand-primary;
+		}
+	}
+}
+.card-type, .form-note{
+	margin-top:35px;
+	height:52px;
+	a{
+		display: inline-block;
+    	font-size: 12px;
+    	padding-top: 10px;
+	}
+}

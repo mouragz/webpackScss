@@ -1,0 +1,23 @@
+.sign-up-panel{
+	display: block;
+	.panel-body{
+		@media (min-width: $screen-md-min){
+			padding: 15px 35px 20px;
+		}
+		@media (max-width: $screen-xs-max){
+			padding: 15px;
+		}
+		@media (max-width: $screen-sm-max){
+			padding: 15px;
+		}
+		h2{
+			margin: 25px 0;
+		}
+	}
+}
+
+@media (max-width: $screen-header-collapse) {
+	.main-header .logo{
+		padding: 0 15px;
+	}
+}

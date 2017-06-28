@@ -1,0 +1,16 @@
+.log-in-panel{
+	.panel-body{
+		@media (min-width: $screen-md-min){
+			padding: 15px 35px 20px;
+		}
+		@media (max-width: $screen-xs-max){
+			padding: 15px;
+		}
+		@media (min-width: $screen-sm-min){
+			padding: 15px;
+		}
+		h2{
+			margin: 25px 0;
+		}
+	}
+}

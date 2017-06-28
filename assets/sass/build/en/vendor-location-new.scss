@@ -1,0 +1,30 @@
+ // settings
+@import "../../variables";
+
+@import "settings";
+
+// fonts icons
+$fa-font-path: "~font-awesome/fonts"; @import "~font-awesome/scss/font-awesome";
+
+//Tel Input
+@import "~intl-tel-input/build/css/intlTelInput";
+
+
+//bootstrap
+$bootstrap-sass-asset-helper: true; @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Components
+@import
+  "../../components/common",
+  "../../components/mixin",
+  "../../components/header",
+  "../../components/tel-input",
+  "../../components/nav",
+  "../../components/box",
+  "../../components/charts",
+  "../../components/user-list",
+  "../../components/social-widgets",
+  "../../components/info-box";
+
+// Page
+@import "../../pages/vendor-location-new";

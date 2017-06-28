@@ -1,0 +1,47 @@
+.input-group-addon{
+	background-color: #{$gray-light};
+	&:before{
+		content: '$';
+	}
+}
+.DebitCredit-menu{
+	width: 100%;
+	a{
+		display: block;
+		&:hover, &:focus{
+			text-decoration: none;
+		}
+		> .endWith{
+			color: #{$text-color};
+			margin-#{$opposite-direction}: 11%;
+		}
+		> .date{
+			color: #{$text-color};
+			margin-#{$opposite-direction}: 25px;
+		}
+	}
+	.menu{
+		padding: 10px;
+    	border: 1px solid #eee;
+    	a{
+			display: block;
+			&:hover, &:focus{
+				background-color: #f4f4f4;
+			}
+			> .endWith{
+				margin-#{$opposite-direction}: 10px;
+			}
+			> .date{
+				margin-#{$opposite-direction}: 25px;
+			}
+		}
+	}
+}
+#DebitCredit{
+	.thankyou, .confirmation{
+		display: none;
+	}
+}
+.confirmPanel{
+	display: none;
+}
