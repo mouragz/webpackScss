@@ -65,6 +65,7 @@
 			"assets/css/ar/vendor-agent-new.css": "./assets/sass/build/ar/vendor-agent-new.scss",
 			"assets/css/ar/vendor-agent-manage.css": "./assets/sass/build/ar/vendor-agent-manage.scss",
 			"assets/css/ar/vendor-agent-transactions.css": "./assets/sass/build/ar/vendor-agent-transactions.scss",
+			"assets/css/ar/common.css": "./assets/sass/build/ar/common.scss",
 
 		    "assets/css/en/sample.css": "./assets/sass/build/en/sample.scss",
 			"assets/css/en/sign-up.css": "./assets/sass/build/en/sign-up.scss",
@@ -130,6 +131,7 @@
 			"assets/css/en/vendor-agent.css": "./assets/sass/build/en/vendor-agent.scss",
 			"assets/css/en/vendor-agent-new.css": "./assets/sass/build/en/vendor-agent-new.scss",
 			"assets/css/en/vendor-agent-manage.css": "./assets/sass/build/en/vendor-agent-manage.scss",
-			"assets/css/en/vendor-agent-transactions.css": "./assets/sass/build/en/vendor-agent-transactions.scss"
+			"assets/css/en/vendor-agent-transactions.css": "./assets/sass/build/en/vendor-agent-transactions.scss",
+			"assets/css/en/common.css": "./assets/sass/build/en/common.scss"
 		}
 }

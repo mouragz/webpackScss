@@ -3,27 +3,6 @@
 
 @import "settings";
 
-// fonts icons
-$fa-font-path: "~font-awesome/fonts"; @import "~font-awesome/scss/font-awesome";
-
-//bootstrap
-$bootstrap-sass-asset-helper: true; @import "~bootstrap-sass/assets/stylesheets/bootstrap";
-
-// Components
-@import
-  "../../components/common",
-  "../../components/mixin",
-  "../../components/header",  
-  "../../components/box",
-  "../../components/charts",
-  "../../components/tabs",
-  "../../components/user-list",
-  "../../components/social-widgets",
-  "../../components/nav",
-  "../../components/info-box",
-  "../../components/checkboxes-radios",
-  "../../components/dropdowns";
-
 // Page
 @import 
 	"../../pages/dashboard",
