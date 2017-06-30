@@ -3,33 +3,5 @@
 
 @import "settings";
 
-// fonts icons
-$fa-font-path: "~font-awesome/fonts"; @import "~font-awesome/scss/font-awesome";
-
-@import "~bootstrap-datepicker/dist/css/bootstrap-datepicker.min";
-
-//Tel Input
-@import "~intl-tel-input/build/css/intlTelInput";
-
-
-//bootstrap
-$bootstrap-sass-asset-helper: true; @import "~bootstrap-sass/assets/stylesheets/bootstrap";
-
-// Components
-@import
-  "../../components/common",
-  "../../components/mixin",
-  "../../components/header",
-  "../../components/nav",
-  "../../components/box",
-  "../../components/tel-input",
-  "../../components/charts",
-  "../../components/user-list",
-  "../../components/social-widgets",
-  "../../components/info-box",
-  "../../components/dropzone",
-  "../../components/checkboxes-radios",
-  "../../components/dropdowns";
-
 // Page
 @import "../../pages/vendor-sub-accounts-new";
